@@ -1,0 +1,71 @@
+JSON format data:::
+edit profile:
+{
+"lng_id":"",
+"user_id":"",
+"firstname":"",
+"lastname":"",
+"username":"",
+"phoneno":"",
+"profilePic":""
+}
+
+orders details:
+{
+"lng_id":"",
+"user_id":"",
+"order_id":""
+}
+
+address insert:
+{
+"lng_id":"",
+"user_id":"",
+"name":"",
+"address":"",
+"phoneno":"",
+"pincode":"",
+"landmark":"",
+"city":"",
+"society":"",
+"latitude":"",
+"longitude":"",
+"street_address":"",
+"state":"",
+"country":""
+}
+
+orders view:
+{
+"lng_id":"",
+"user_id":""
+}
+
+//orders insert
+{
+"lng_id":"",
+"user_id":"",
+"order_status":"",
+"sub_total":"",
+"total_price":"",
+"pyment_method":"",
+"delivery_date":"", 
+"address_id":"",
+"delivery_option":"",
+"delivery_price":"",
+"coupon_discount":"",
+"coupon_id":"",
+"transaction_id":""
+}
+
+//address view
+{
+"lng_id":"",
+"user_id":""
+}
+
+//address delete
+{
+"lng_id":"",
+"address_id":"",
+}
